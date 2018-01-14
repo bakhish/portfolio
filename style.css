@@ -1,0 +1,36 @@
+.portfolio{
+    width:900px;
+    margin:0px auto ;
+    background-color: red;
+    
+}
+.portfolio ul{
+    padding: 0;
+}
+.portfolio li {
+    width:400px;
+    list-style: none;
+    display:inline-block;
+    margin-left: 32px;
+    
+    
+}
+.portfolio li .images{
+    width:100%;
+    position: relative;
+}
+.portfolio li .images img{
+    width:100%;
+    
+}
+.portfolio .images .overlay{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    height:98%;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+    
+
